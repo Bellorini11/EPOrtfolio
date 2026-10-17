@@ -1,3 +1,16 @@
+template_vujpz3f
+service_54dbinu
+xHp3xNJg81fcQ8xv8
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "xHp3xNJg81fcQ8xv8"
+      });
+   })();
+</script>
 let isModalOpen = false;
 let contrastToggle = false;
 const scaleFactor = 1 / 20;

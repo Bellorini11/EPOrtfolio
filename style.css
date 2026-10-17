@@ -223,8 +223,8 @@ nav,
 }
 
 .social__link {
-  background-color: white;
-  color: #242424;
+  background-color: #f06449;
+  color: white;
   padding: 6px;
   width: 32px;
   height: 32px;
@@ -244,7 +244,7 @@ nav,
   border: none;
   background-color: #242424;
   color: white;
-  position: fixed;
+  position: absolute;
   bottom: 32px;
   right: 40px;
   z-index: 100;
