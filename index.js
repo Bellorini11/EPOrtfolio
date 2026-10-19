@@ -1,16 +1,7 @@
 template_vujpz3f
 service_54dbinu
 xHp3xNJg81fcQ8xv8
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "xHp3xNJg81fcQ8xv8"
-      });
-   })();
-</script>
+
 let isModalOpen = false;
 let contrastToggle = false;
 const scaleFactor = 1 / 20;
@@ -45,10 +36,10 @@ function contact(event) {
   loading.classList += " modal__overlay--visible";
   emailjs
     .sendForm(
-      "service_80ih0if",
-      "template_d9refyl",
+      "service_54dbinu",
+      "template_vujpz3f",
       event.target,
-      "user_K1PoFs8pB2YVWStDxrUls"
+      "xHp3xNJg81fcQ8xv8"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
@@ -57,7 +48,7 @@ function contact(event) {
     .catch(() => {
       loading.classList.remove("modal__overlay--visible");
       alert(
-        "The email service is temporarily unavailable. Please contact me directly on email@email.com"
+        "The email service is temporarily unavailable. Please contact me directly on sjbdmd84@yahoo.com"
       );
     });
 }
